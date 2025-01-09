@@ -1,0 +1,10 @@
+{% block content %}
+	 <script>window.SULU_HEADLESS_VIEW_DATA = {{ headless|json_encode|raw }};</script>
+{% endblock %}
+
+
+{# {% extends "base.html.twig" %}
+
+{% block content %}
+	                      <script>window.SULU_HEADLESS_VIEW_DATA = {{ headless|json_encode|raw }};</script>{% endblock %}
+#}
