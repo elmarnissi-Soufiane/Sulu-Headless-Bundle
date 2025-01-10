@@ -33,6 +33,7 @@
         "friendsofsymfony/http-cache-bundle": "^3.0",
         "handcraftedinthealps/zendsearch": "^2.1",
         "jackalope/jackalope-doctrine-dbal": "^1.10 || ^2.0",
+        "nelmio/cors-bundle": "^2.5",
         "phpcr/phpcr-migrations-bundle": "^1.6",
         "phpcr/phpcr-shell": "^1.6",
         "scheb/2fa-bundle": "^7.2",

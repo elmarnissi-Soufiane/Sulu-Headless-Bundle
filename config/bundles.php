@@ -46,4 +46,5 @@ return [
     Sulu\Bundle\ReferenceBundle\SuluReferenceBundle::class => ['all' => true],
     Scheb\TwoFactorBundle\SchebTwoFactorBundle::class => ['all' => true],
     Sulu\Bundle\HeadlessBundle\SuluHeadlessBundle::class => ['all' => true],
+    Nelmio\CorsBundle\NelmioCorsBundle::class => ['all' => true],
 ];

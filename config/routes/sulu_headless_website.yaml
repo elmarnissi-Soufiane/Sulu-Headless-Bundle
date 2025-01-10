@@ -2,15 +2,26 @@ sulu_headless:
     type: portal
     resource: "@SuluHeadlessBundle/Resources/config/routing_website.yml"
     prefix: /
-    # options:
-    #     expose_format: true
+#     defaults:
+#         _controller: 'App\Controller\CustomHeadlessWebsiteController::indexAction'
 
-    # defaults:
-    #     _format: json
-    # requirements:
-    #     _format: json|html
+# # Ajouter une route PUT pour l'update
+# put_page_update:
+#     path: /admin/api/pages/{id}
+#     methods: [PUT]
+#     defaults:
+#         _controller: 'App\Controller\CustomHeadlessWebsiteController::updateAction'
+#         webspace: "website" # Spécifie l'espace web par défaut ici
 
-    # prefix: /api
+# options:
+#     expose_format: true
+
+# defaults:
+#     _format: json
+# requirements:
+#     _format: json|html
+
+# prefix: /api
 # sulu_headless:
 #     resource: "@SuluHeadlessBundle/Resources/config/routing_website.yml"
 #     type: rest
