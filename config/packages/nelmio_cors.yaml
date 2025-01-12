@@ -7,7 +7,14 @@ nelmio_cors:
         allow_headers: ["Content-Type", "Authorization"]
         expose_headers: ["Link"]
         max_age: 3600
+    # paths:
+    #     # "^/": null
+    #     "^/api/":
+    #         allow_origin: ["http://localhost:4200"]
     paths:
-        # "^/": null
-        "^/api/":
+        "^/admin/api/": # Restreindre aux routes API
             allow_origin: ["http://localhost:4200"]
+            allow_credentials: true
+            allow_headers: ["Content-Type", "Authorization", "X-Requested-With"]
+            expose_headers: ["Link"]
+            allow_methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
